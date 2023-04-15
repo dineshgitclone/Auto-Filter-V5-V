@@ -48,9 +48,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/RoyalRocker_s')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP'))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL'))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001562483609))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001571882264))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/RoyalRocker_s')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/howtoopenlinkx')
 
 # Log Channels
