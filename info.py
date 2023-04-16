@@ -13,9 +13,9 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '27978633'))
-API_HASH = environ.get('API_HASH', '9bc1fa832d32a25e29d067f7ae5e7454')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6276211504:AAELZzS1gzoI791yJi3a2wP04-96KLALsY4")
+API_ID = int(environ.get('API_ID', '25129938'))
+API_HASH = environ.get('API_HASH', '250f48fc7711caffe8f1994b80e890d9')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6146215804:AAFIiaZ7AM0QBeeFVnzOPRTJd02jlxwN_PA")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -27,9 +27,9 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8ee413afc32e5b393e
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/07c14729659c7c2b99f5a.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1608576332').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001871336374').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1608576332').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1970524144').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001535606891').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1970524144').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
@@ -37,25 +37,25 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dineshkadaba556:yrhfrwQ4NuqoBWob@cluster0.bmvpcuh.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Hemanthbot69:u5sbrWrHisuAiUd5@cluster0.edfgvhi.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Hemanthbot69")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/RoyalRocker_s')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/RoyalRocker_s')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/RoyalRocker_s')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Ze882k0-zJ02Y2Jl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movies_mania_2023')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+Ze882k0-zJ02Y2Jl')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001562483609))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001571882264))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/RoyalRocker_s')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/howtoopenlinkx')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001788766416))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001835077729))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+ZMbo-EkX_cMyMGE1')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/movies_mania_69_backup/68')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001863980889))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001891931742))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001881182715))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001881182715))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
