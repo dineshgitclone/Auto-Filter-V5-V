@@ -1,5 +1,5 @@
 {
-    "name": "CYNITE",
+    "name": "diya jain",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Cyniteofficial/Auto-Filter-V5",
-    "repository": "https://github.com/Cyniteofficial/Auto-Filter-V5",
+    "website": "https://github.com/hemanthbot69/Auto-Filter-V5-V",
+    "repository": "https://github.com/hemanthbot69/Auto-Filter-V5-V",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -95,7 +95,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
